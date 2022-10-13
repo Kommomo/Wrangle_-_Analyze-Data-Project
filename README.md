@@ -17,24 +17,13 @@ Each of these datasets which are tweet data have characteristics of big data mak
 
 To be able to run this code, you will need the following-
 - jupyter notebook
-- Installation of the following anaconda package libraries- pandas, numpy, requests, tweepy, json
+- Installation of the following anaconda package libraries- pandas, numpy, requests, tweepy, json, dataset files(.csv,.txt, .json)
 
 ## Summary of Findings
 
-> I explored my wrangled data determine what factors influence high ratings of dogs. My chosen dependent variable was rating_denominator(rating) and Independent variables were source and dog_stage. These variables were were relevant to answering the following research questions -
-
-- RQ1. What source has the highest number of tweets?
-
-- RQ2. Does a particular dog stage have higher tweets?
-
-- RQ3. What is the top rating?
-
-- RQ4. Is there a correlation between ratings and dog stage?
-
-- RQ5. Is there a correlation between ratings and source?
-> The following findings were made -
+> I explored my wrangled data determine what factors influence high ratings of dogs. My chosen dependent variable was rating_denominator(rating) and Independent variables were source and dog_stage. The following findings were made -
 - The source with the highest number of tweets is Twitter for iphone with 1915 tweets out of 1954 tweets.
-- pupper dog_stage has the highest number of tweets with 201 tweets out of 303 tweets, followed by doggo and puppo with 63 and 22 respectively
+- pupper dog stage has the highest number of tweets with 201 tweets out of 303 tweets, followed by doggo and puppo with 63 and 22 respectively
 - The top rating is 12/10 with 446 tweets, followed closely by 10/10 and 11/10
 - There is a strong correlation between ratings and dog_stage as the combination of pupper dog_stage and 12/10 rating have the highest number of tweets. Hence, dog_stage strongly influnces the rating of the dog.
 - There is no correlation between ratings and source. This implies that the tweet source does not influence the rating of the dog
